@@ -3,7 +3,8 @@ var CommentBox = require('comment-box');
 
 var json_data = [
   {author: "Pete Hunt", text: "This is one comment"},
-  {author: "Jordan Walke", text: "This is *another* comment"}
+  {author: "Jordan Walke", text: "This is **another** comment"},
+  {author: "Joe Moe", text: "Third _comment_"} 
 ];
 
 var App = React.createClass({
