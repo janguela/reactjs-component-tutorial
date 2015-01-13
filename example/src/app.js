@@ -5,7 +5,7 @@ var App = React.createClass({
   render: function() {
     return (
       <div>
-        <CommentBox url="comments.json" />
+        <CommentBox url="comments.json" pollInterval={2000} />
       </div>
     )
   }
