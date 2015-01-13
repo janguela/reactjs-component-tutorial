@@ -1,0 +1,40 @@
+{
+  "name": "comment-box",
+  "version": "0.0.0",
+  "description": "Comment Box",
+  "main": "src/CommentBox.js",
+  "author": "Jordi Anguela",
+  "homepage": "https://github.com/janguela/reactjs-component-tutorial",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janguela/reactjs-component-tutorial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/janguela/reactjs-component-tutorial/issues"
+  },
+  "dependencies": {
+    "react": "^0.12.2",
+    "reactify": "^0.17.1"
+  },
+  "devDependencies": {
+    "react-component-gulp-tasks": "^0.1.1",
+    "gulp": "^3.8.10"
+  },
+  "browser": "src/CommentBox.js",
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "browserify-shim": {
+    "react": "global:React"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\" && exit 0"
+  },
+  "readmeFilename": "README.md",
+  "keywords": [
+    "react",
+    "react-component"
+  ]
+}
